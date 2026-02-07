@@ -1,0 +1,11 @@
+{
+  "name": "blindfold-v3",
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "regions": ["iad1"],
+  "env": {
+    "VERCEL_OIDC_TOKEN": "@vercel-oicd-token"
+  }
+}
