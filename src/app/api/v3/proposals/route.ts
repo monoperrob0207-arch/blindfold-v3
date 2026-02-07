@@ -2,9 +2,10 @@ import { NextResponse } from 'next/server';
 
 export const dynamic = 'force-dynamic';
 
+var fs = require('fs');
+var path = require('path');
+
 function getProposalsFile() {
-  var fs = require('fs');
-  var path = require('path');
   var dataDir = path.join(process.cwd(), 'data');
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
@@ -51,8 +52,6 @@ export async function POST(request: Request) {
         { status: 400 }
       );
     }
-    
-    var fs = require('fs');
     
     var proposal = {
       id: 'prop_' + Date.now(),
