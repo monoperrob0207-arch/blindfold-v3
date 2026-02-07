@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import type { SystemEvent, Agent, Worker, SystemMetrics } from '@/lib/types';
+import type { SystemEvent } from '@/lib/types/index';
+import type { Agent, Worker, SystemMetrics } from '@/lib/types';
 
 // ============ WEBSOCKET HOOK ============
 

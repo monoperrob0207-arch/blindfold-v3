@@ -4,12 +4,22 @@ export interface Agent {
   id: string;
   name: string;
   role: string;
-  status: 'idle' | 'active' | 'thinking' | 'collaborating';
+  status: 'idle' | 'active' | 'busy' | 'error' | 'thinking' | 'collaborating';
+  description?: string;
+  tools?: string[];
   color: string;
   capabilities: string[];
-  currentTask: string | null;
+  currentTask?: string | null;
+  project?: string;
   lastActive: string;
   suggestionCount: number;
+  metrics?: {
+    tasksCompleted: number;
+    tasksInProgress: number;
+    avgResponseTime: number;
+    successRate: number;
+  };
+  starred?: boolean;
 }
 
 export interface Proposal {
@@ -72,9 +82,12 @@ export interface AgentFeedback {
 }
 
 export interface AgentCommunication {
-  messages: AgentMessage[];
-  feedbacks: AgentFeedback[];
-  updatedAt: string;
+  fromAgent: string;
+  toAgent: string;
+  messageType: string;
+  timestamp: string;
+  direction: '→' | '←' | '↔';
+  payload?: any;
 }
 
 export interface SystemStats {
@@ -84,4 +97,64 @@ export interface SystemStats {
   completedTasks: number;
   successRate: number;
   uptime: string;
+}
+
+// Worker types for WorkerMonitor
+export type WorkerStatus = 'running' | 'idle' | 'error' | 'queued';
+export type WorkerCategory = 'development' | 'specialized' | 'tool' | 'ai' | 'integration' | 'design';
+
+export interface Worker {
+  id: string;
+  name: string;
+  category: WorkerCategory;
+  status: WorkerStatus;
+  project?: string;
+  taskId?: string;
+  progress?: number;
+  description?: string;
+  startedAt?: string;
+  subAgents?: string[];
+  icon?: string;
+  starred?: boolean;
+}
+
+export interface WorkerLog {
+  timestamp: string;
+  level: 'info' | 'warn' | 'error' | 'success';
+  message: string;
+}
+
+// System Metrics types
+export interface SystemMetrics {
+  cpu: number;
+  memory: number;
+  disk: number;
+  network: {
+    in: number;
+    out: number;
+  };
+  uptime: number;
+  requestsPerSecond: number;
+  latency: number;
+  errorsLastHour: number;
+}
+
+export interface MetricHistory {
+  timestamp: string;
+  cpu: number;
+  memory: number;
+  requestsPerSecond: number;
+  latency: number;
+}
+
+// System Event type
+export interface SystemEvent {
+  id: string;
+  type: 'task_start' | 'task_complete' | 'message_sent' | 'message_received' | 'worker_start' | 'worker_stop' | 'error' | 'warning';
+  agent?: string;
+  worker?: string;
+  taskId?: string;
+  message: string;
+  timestamp: string;
+  severity: 'info' | 'warning' | 'error' | 'success';
 }

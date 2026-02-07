@@ -1,9 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
+  "/api/v3/agents/route": "app/api/v3/agents/route.js",
   "/api/v3/communication/route": "app/api/v3/communication/route.js",
-  "/api/v3/tasks/route": "app/api/v3/tasks/route.js",
-  "/api/v3/proposals/route": "app/api/v3/proposals/route.js",
   "/api/v3/proposals/approve/route": "app/api/v3/proposals/approve/route.js",
-  "/api/v3/agents/route": "app/api/v3/agents/route.js"
+  "/api/v3/proposals/route": "app/api/v3/proposals/route.js",
+  "/api/v3/tasks/route": "app/api/v3/tasks/route.js"
 }

@@ -4,6 +4,34 @@
       "from": "Code Archaeologist",
       "type": "proposal",
       "content": "He propuesto: Refactorizar módulo de autenticación",
+      "proposalId": "prop_1770478581817",
+      "timestamp": "2026-02-07T15:36:21.818Z"
+    },
+    {
+      "from": "Qa Automation Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Aumentar cobertura de tests en API",
+      "proposalId": "prop_1770478581815",
+      "timestamp": "2026-02-07T15:36:21.816Z"
+    },
+    {
+      "from": "Devops Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Revisar infraestructura de deployment",
+      "proposalId": "prop_1770478581814",
+      "timestamp": "2026-02-07T15:36:21.815Z"
+    },
+    {
+      "from": "Explorer Agent",
+      "type": "proposal",
+      "content": "He propuesto: Investigar nuevas tendencias en IA",
+      "proposalId": "prop_1770478581813",
+      "timestamp": "2026-02-07T15:36:21.814Z"
+    },
+    {
+      "from": "Code Archaeologist",
+      "type": "proposal",
+      "content": "He propuesto: Refactorizar módulo de autenticación",
       "proposalId": "prop_1770451322814",
       "timestamp": "2026-02-07T08:02:02.815Z"
     },
@@ -170,5 +198,5 @@
     }
   ],
   "feedbacks": [],
-  "updatedAt": "2026-02-07T08:02:02.815Z"
+  "updatedAt": "2026-02-07T15:36:21.818Z"
 }

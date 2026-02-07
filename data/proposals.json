@@ -1,5 +1,57 @@
 [
   {
+    "id": "prop_1770478581817",
+    "agent": "Code Archaeologist",
+    "agentId": "code_archaeologist",
+    "task": "Refactorizar módulo de autenticación",
+    "reason": "Código legacy con patrones obsoletos",
+    "expectedOutcome": "Código más mantenible y seguro",
+    "priority": "low",
+    "status": "pending",
+    "createdAt": "2026-02-07T15:36:21.817Z",
+    "votes": [],
+    "dependencies": []
+  },
+  {
+    "id": "prop_1770478581815",
+    "agent": "Qa Automation Engineer",
+    "agentId": "qa_automation_engineer",
+    "task": "Aumentar cobertura de tests en API",
+    "reason": "La cobertura actual es del 72%, objetivo es 90%",
+    "expectedOutcome": "50+ nuevos tests unitarios",
+    "priority": "medium",
+    "status": "pending",
+    "createdAt": "2026-02-07T15:36:21.815Z",
+    "votes": [],
+    "dependencies": []
+  },
+  {
+    "id": "prop_1770478581814",
+    "agent": "Devops Engineer",
+    "agentId": "devops_engineer",
+    "task": "Revisar infraestructura de deployment",
+    "reason": "Los últimos deploys tuvieron tiempos de build elevados",
+    "expectedOutcome": "Optimización de pipeline CI/CD",
+    "priority": "high",
+    "status": "pending",
+    "createdAt": "2026-02-07T15:36:21.814Z",
+    "votes": [],
+    "dependencies": []
+  },
+  {
+    "id": "prop_1770478581813",
+    "agent": "Explorer Agent",
+    "agentId": "explorer_agent",
+    "task": "Investigar nuevas tendencias en IA",
+    "reason": "Es importante mantenernos actualizados con las últimas tecnologías",
+    "expectedOutcome": "Reporte de tendencias con recomendaciones",
+    "priority": "medium",
+    "status": "pending",
+    "createdAt": "2026-02-07T15:36:21.813Z",
+    "votes": [],
+    "dependencies": []
+  },
+  {
     "id": "prop_1770451322814",
     "agent": "Code Archaeologist",
     "agentId": "code_archaeologist",
