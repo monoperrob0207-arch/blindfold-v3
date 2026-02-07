@@ -7,7 +7,9 @@ export function GET() {
     var communication = { messages: [], feedbacks: [] };
     try {
       var fs = require('fs');
-      var messagesFile = 'path.join(process.cwd(), 'data')/agent-messages.json';
+      var path = require('path');
+      var dataDir = path.join(process.cwd(), 'data');
+      var messagesFile = path.join(dataDir, 'agent-messages.json');
       if (fs.existsSync(messagesFile)) {
         communication = JSON.parse(fs.readFileSync(messagesFile, 'utf-8'));
       }

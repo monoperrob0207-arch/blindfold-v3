@@ -17,8 +17,10 @@ export async function POST(request: Request) {
     }
     
     var fs = require('fs');
-    var proposalsFile = 'path.join(process.cwd(), 'data')/proposals.json';
-    var tasksFile = 'path.join(process.cwd(), 'data')/tasks.json';
+    var path = require('path');
+    var dataDir = path.join(process.cwd(), 'data');
+    var proposalsFile = path.join(dataDir, 'proposals.json');
+    var tasksFile = path.join(dataDir, 'tasks.json');
     
     var proposals: any[] = [];
     try {

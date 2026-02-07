@@ -7,7 +7,9 @@ export function GET() {
     var tasks: any[] = [];
     try {
       var fs = require('fs');
-      var tasksFile = 'path.join(process.cwd(), 'data')/tasks.json';
+      var path = require('path');
+      var dataDir = path.join(process.cwd(), 'data');
+      var tasksFile = path.join(dataDir, 'tasks.json');
       if (fs.existsSync(tasksFile)) {
         tasks = JSON.parse(fs.readFileSync(tasksFile, 'utf-8'));
       }
