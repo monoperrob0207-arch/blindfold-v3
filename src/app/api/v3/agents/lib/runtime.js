@@ -6,7 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const AGENTS_DIR = '/home/ubuntu/.openclaw/workspace/.agent/agents';
+const AGENTS_DIR = path.join(process.cwd(), 'src/lib/agents');
 const PROPOSALS_FILE = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/proposals.json';
 const TASKS_FILE = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/tasks.json';
 const MESSAGES_FILE = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/agent-messages.json';
