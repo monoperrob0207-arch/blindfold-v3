@@ -2,12 +2,21 @@ import { NextResponse } from 'next/server';
 
 export const dynamic = 'force-dynamic';
 
+function getProposalsFile() {
+  var fs = require('fs');
+  var path = require('path');
+  var dataDir = path.join(process.cwd(), 'data');
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });
+  }
+  return path.join(dataDir, 'proposals.json');
+}
+
 export function GET() {
   try {
     var proposals: any[] = [];
     try {
-      var fs = require('fs');
-      var proposalsFile = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/proposals.json';
+      var proposalsFile = getProposalsFile();
       if (fs.existsSync(proposalsFile)) {
         proposals = JSON.parse(fs.readFileSync(proposalsFile, 'utf-8'));
       }
@@ -43,7 +52,6 @@ export async function POST(request: Request) {
       );
     }
     
-    var runtime = require('./lib/runtime');
     var fs = require('fs');
     
     var proposal = {
@@ -60,7 +68,7 @@ export async function POST(request: Request) {
       dependencies: []
     };
     
-    var proposalsFile = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/proposals.json';
+    var proposalsFile = getProposalsFile();
     var proposals: any[] = [];
     try {
       if (fs.existsSync(proposalsFile)) {

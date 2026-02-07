@@ -7,7 +7,7 @@ export function GET() {
     var communication = { messages: [], feedbacks: [] };
     try {
       var fs = require('fs');
-      var messagesFile = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/agent-messages.json';
+      var messagesFile = 'path.join(process.cwd(), 'data')/agent-messages.json';
       if (fs.existsSync(messagesFile)) {
         communication = JSON.parse(fs.readFileSync(messagesFile, 'utf-8'));
       }

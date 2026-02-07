@@ -6,14 +6,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const AGENTS_DIR = '/home/ubuntu/.openclaw/workspace/.agent/agents';
-const PROPOSALS_FILE = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/proposals.json';
-const TASKS_FILE = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/tasks.json';
-const MESSAGES_FILE = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/agent-messages.json';
-const AGENTS_STATE_FILE = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/agents-state.json';
+const AGENTS_DIR = 'path.join(process.cwd(), 'src/lib/agents')';
+const PROPOSALS_FILE = 'path.join(process.cwd(), 'data')/proposals.json';
+const TASKS_FILE = 'path.join(process.cwd(), 'data')/tasks.json';
+const MESSAGES_FILE = 'path.join(process.cwd(), 'data')/agent-messages.json';
+const AGENTS_STATE_FILE = 'path.join(process.cwd(), 'data')/agents-state.json';
 
 // Ensure data directories exist
-['/home/ubuntu/.openclaw/workspace/blindfold-v3/data'].forEach(dir => {
+['path.join(process.cwd(), 'data')'].forEach(dir => {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 });
 

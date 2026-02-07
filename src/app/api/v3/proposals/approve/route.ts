@@ -17,8 +17,8 @@ export async function POST(request: Request) {
     }
     
     var fs = require('fs');
-    var proposalsFile = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/proposals.json';
-    var tasksFile = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/tasks.json';
+    var proposalsFile = 'path.join(process.cwd(), 'data')/proposals.json';
+    var tasksFile = 'path.join(process.cwd(), 'data')/tasks.json';
     
     var proposals: any[] = [];
     try {

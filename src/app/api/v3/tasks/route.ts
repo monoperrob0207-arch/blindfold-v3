@@ -7,7 +7,7 @@ export function GET() {
     var tasks: any[] = [];
     try {
       var fs = require('fs');
-      var tasksFile = '/home/ubuntu/.openclaw/workspace/blindfold-v3/data/tasks.json';
+      var tasksFile = 'path.join(process.cwd(), 'data')/tasks.json';
       if (fs.existsSync(tasksFile)) {
         tasks = JSON.parse(fs.readFileSync(tasksFile, 'utf-8'));
       }

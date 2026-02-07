@@ -1,0 +1,174 @@
+{
+  "messages": [
+    {
+      "from": "Code Archaeologist",
+      "type": "proposal",
+      "content": "He propuesto: Refactorizar módulo de autenticación",
+      "proposalId": "prop_1770451322814",
+      "timestamp": "2026-02-07T08:02:02.815Z"
+    },
+    {
+      "from": "Qa Automation Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Aumentar cobertura de tests en API",
+      "proposalId": "prop_1770451322813",
+      "timestamp": "2026-02-07T08:02:02.814Z"
+    },
+    {
+      "from": "Devops Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Revisar infraestructura de deployment",
+      "proposalId": "prop_1770451322811",
+      "timestamp": "2026-02-07T08:02:02.812Z"
+    },
+    {
+      "from": "Explorer Agent",
+      "type": "proposal",
+      "content": "He propuesto: Investigar nuevas tendencias en IA",
+      "proposalId": "prop_1770451322810",
+      "timestamp": "2026-02-07T08:02:02.811Z"
+    },
+    {
+      "from": "Code Archaeologist",
+      "type": "proposal",
+      "content": "He propuesto: Refactorizar módulo de autenticación",
+      "proposalId": "prop_1770447706968",
+      "timestamp": "2026-02-07T07:01:46.969Z"
+    },
+    {
+      "from": "Qa Automation Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Aumentar cobertura de tests en API",
+      "proposalId": "prop_1770447706967",
+      "timestamp": "2026-02-07T07:01:46.967Z"
+    },
+    {
+      "from": "Devops Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Revisar infraestructura de deployment",
+      "proposalId": "prop_1770447706965",
+      "timestamp": "2026-02-07T07:01:46.966Z"
+    },
+    {
+      "from": "Explorer Agent",
+      "type": "proposal",
+      "content": "He propuesto: Investigar nuevas tendencias en IA",
+      "proposalId": "prop_1770447706963",
+      "timestamp": "2026-02-07T07:01:46.964Z"
+    },
+    {
+      "from": "Code Archaeologist",
+      "type": "proposal",
+      "content": "He propuesto: Refactorizar módulo de autenticación",
+      "proposalId": "prop_1770447673584",
+      "timestamp": "2026-02-07T07:01:13.585Z"
+    },
+    {
+      "from": "Qa Automation Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Aumentar cobertura de tests en API",
+      "proposalId": "prop_1770447673583",
+      "timestamp": "2026-02-07T07:01:13.584Z"
+    },
+    {
+      "from": "Devops Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Revisar infraestructura de deployment",
+      "proposalId": "prop_1770447673582",
+      "timestamp": "2026-02-07T07:01:13.583Z"
+    },
+    {
+      "from": "Explorer Agent",
+      "type": "proposal",
+      "content": "He propuesto: Investigar nuevas tendencias en IA",
+      "proposalId": "prop_1770447673581",
+      "timestamp": "2026-02-07T07:01:13.581Z"
+    },
+    {
+      "from": "Code Archaeologist",
+      "type": "proposal",
+      "content": "He propuesto: Refactorizar módulo de autenticación",
+      "proposalId": "prop_1770415213643",
+      "timestamp": "2026-02-06T22:00:13.644Z"
+    },
+    {
+      "from": "Qa Automation Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Aumentar cobertura de tests en API",
+      "proposalId": "prop_1770415213642",
+      "timestamp": "2026-02-06T22:00:13.643Z"
+    },
+    {
+      "from": "Devops Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Revisar infraestructura de deployment",
+      "proposalId": "prop_1770415213641",
+      "timestamp": "2026-02-06T22:00:13.642Z"
+    },
+    {
+      "from": "Explorer Agent",
+      "type": "proposal",
+      "content": "He propuesto: Investigar nuevas tendencias en IA",
+      "proposalId": "prop_1770415213640",
+      "timestamp": "2026-02-06T22:00:13.641Z"
+    },
+    {
+      "from": "Code Archaeologist",
+      "type": "proposal",
+      "content": "He propuesto: Refactorizar módulo de autenticación",
+      "proposalId": "prop_1770414813294",
+      "timestamp": "2026-02-06T21:53:33.295Z"
+    },
+    {
+      "from": "Qa Automation Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Aumentar cobertura de tests en API",
+      "proposalId": "prop_1770414813292",
+      "timestamp": "2026-02-06T21:53:33.293Z"
+    },
+    {
+      "from": "Devops Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Revisar infraestructura de deployment",
+      "proposalId": "prop_1770414813291",
+      "timestamp": "2026-02-06T21:53:33.292Z"
+    },
+    {
+      "from": "Explorer Agent",
+      "type": "proposal",
+      "content": "He propuesto: Investigar nuevas tendencias en IA",
+      "proposalId": "prop_1770414813290",
+      "timestamp": "2026-02-06T21:53:33.291Z"
+    },
+    {
+      "from": "Code Archaeologist",
+      "type": "proposal",
+      "content": "He propuesto: Refactorizar módulo de autenticación",
+      "proposalId": "prop_1770414812324",
+      "timestamp": "2026-02-06T21:53:32.325Z"
+    },
+    {
+      "from": "Qa Automation Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Aumentar cobertura de tests en API",
+      "proposalId": "prop_1770414812322",
+      "timestamp": "2026-02-06T21:53:32.324Z"
+    },
+    {
+      "from": "Devops Engineer",
+      "type": "proposal",
+      "content": "He propuesto: Revisar infraestructura de deployment",
+      "proposalId": "prop_1770414812322",
+      "timestamp": "2026-02-06T21:53:32.322Z"
+    },
+    {
+      "from": "Explorer Agent",
+      "type": "proposal",
+      "content": "He propuesto: Investigar nuevas tendencias en IA",
+      "proposalId": "prop_1770414812321",
+      "timestamp": "2026-02-06T21:53:32.322Z"
+    }
+  ],
+  "feedbacks": [],
+  "updatedAt": "2026-02-07T08:02:02.815Z"
+}
